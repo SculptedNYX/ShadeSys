@@ -1,0 +1,60 @@
+html * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2021;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+    background-color: #282828; /* Dark background color */
+    color: #a89984; /* White text */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+button {
+    all: unset;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: #ebdbb2;
+}
+
+p {
+    color: #ebdbb2;
+}
+
+label {
+    color: #ebdbb2;
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #282828;
+    color: #ebdbb2;
+    font-size: 14px;
+}
+
+h2 {
+    color: #d79921; /* Gruvbox bright yellow */
+    text-align: center;
+    margin-bottom: 20px;
+}

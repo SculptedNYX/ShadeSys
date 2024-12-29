@@ -1,0 +1,42 @@
+table thead th {
+    background-color: #3c3836; /* Gruvbox darker gray */
+    color: #fabd2f; /* Gruvbox yellow */
+    padding: 10px;
+    text-align: left;
+}
+
+thead th, tbody td {
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    padding: 10px;
+}
+
+tbody td {
+    color: #d5c4a1; /* Gruvbox neutral text */
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #32302f; /* Gruvbox dark gray for alternate rows */
+}
+table tbody tr:nth-child(odd) {
+    background-color: #282828; /* Gruvbox base background */
+}
+table tbody tr:hover {
+    background-color: #665c54; /* Gruvbox hover highlight */
+}
+h2 {
+    color: #d79921; /* Gruvbox bright yellow */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the table */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    border: 2px solid #504945; /* Gruvbox border color */
+    table-layout: fixed; /* Fixed layout for consistent column sizing */
+}

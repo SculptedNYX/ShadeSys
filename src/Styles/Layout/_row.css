@@ -1,0 +1,6 @@
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the buttons */
+    margin-bottom: 20px; /* Space between rows */
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Form 2</title>
+        <link rel="stylesheet" href="/src/Styles/main.css">
+    </head>
+    <body class="body--center">
+        <div class="form-container">
+            <form id="input-form-2" method="POST" enctype="multipart/form-data">
+                <h1 class="h1--title">Input Form 2</h1>
+                <!-- Encryption Method -->
+                <label for="encryption_method">Encryption Method:</label>
+                <select id="encryption_method" name="encryption_method" required>
+                    <option value="">Select Encryption Method</option>
+                    <option value="1">AES-128</option>
+                    <option value="2">AES-256</option>
+                    <option value="3">RSA-2048</option>
+                    <option value="4">SHA-256</option>
+                    <option value="5">DES</option>
+                    <option value="6">riple DES</option>
+                    <option value="7">Blowfish</option>
+                </select>
+                <!-- Rotation -->
+                <label for="rotation">Rotation:</label>
+                <select id="rotation" name="rotation" required>
+                    <option value="">Select Rotation</option>
+                    <option value="true">Enabled</option>
+                    <option value="false">Disabled</option>
+                </select>
+
+                <button type="submit" class="button--submit">
+                    <span class="button--submit_text">Submit</span>
+                </button>
+            </form>
+        </div>
+        <footer>
+            <p>This project was made by Yehya Mohey, Mohamed Ayman, and Rana Saad 🚀</p>
+        </footer>
+        <script type="module" src="/src/JS/form2-handler.js"></script>
+    </body>
+</html>

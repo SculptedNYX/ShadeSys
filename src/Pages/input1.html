@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Form 1</title>
+        <link rel="stylesheet" href="/src/Styles/main.css">
+    </head>
+    <body class="body--center">
+        <div class="form-container">
+            <form id="input-form" method="POST" enctype="multipart/form-data">
+                <h1 class="h1--title">Input Form 1</h1>
+                
+                <!-- Container Image -->
+                <label for="container_image">Container Image:</label>
+                <input type="file" id="container_image" name="container_image" required>
+        
+                <!-- Network -->
+                <label for="network">Network:</label>
+                <select id="network" name="network" required>
+                    <option value="">Select a network</option>
+                    <option value="network1">Network 1</option>
+                    <option value="network2">Network 2</option>
+                </select>
+        
+                <!-- SLA -->
+                <label for="sla">SLA (0-7):</label>
+                <input type="number" id="sla" name="sla" min="0" max="7" required>
+        
+                <!-- Secrets -->
+                <label for="secrets">Secrets:</label>
+                <input type="text" id="secrets" name="secrets" required>
+    
+                <button type="submit" class="button--submit">
+                    <span class="button--submit_text">Submit</span>
+                </button>
+            </form>
+        </div>
+        <footer>
+            <p>This project was made by Yehya Mohey, Mohamed Ayman, and Rana Saad 🚀</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+        <script type="module" src="/src/JS/form1-handler.js"></script>
+    </body>
+</html>
